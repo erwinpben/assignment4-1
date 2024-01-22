@@ -1,0 +1,38 @@
+
+
+@media screen and (max-width: 630px) {
+    .cards {
+        flex-direction: column !important;
+        width: 100vw !important;
+    }
+    img {
+        width: 300px !important;
+    }
+    section {
+        height: 100% !important;
+    }
+
+    .memberDesc {
+        height: 16vh !important;
+    }
+    .membersImage {
+        width: 200px !important; 
+    }
+    .aboutUsContainer {
+        flex-direction: column !important;
+    }
+    .colCont {
+        flex-basis: 50% !important;
+        width: 70% !important;
+        padding-bottom: 30px !important;
+    }
+
+}
+
+
+@media screen and (max-height: 935px) {
+    .canvas {
+        height: 935px !important;
+    }
+}
+

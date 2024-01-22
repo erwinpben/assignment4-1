@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.css'
+import MainPage from './containers/MainPage/index';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import UserProvider from '../src/contexts/UserProvider'
+import Navigation from '../src/navigation/navigation'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserProvider>
+      <Navigation />
+    </UserProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
